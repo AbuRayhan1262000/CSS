@@ -1,0 +1,32 @@
+.navbar{
+    background-color: cadetblue;
+    height:;
+    text-align: center;
+}
+.navbar a{
+    padding: 10px 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+}
+.dropdown_container{
+    display: inline;
+    position: relative;
+}
+.dropdown_content{
+    background-color: blanchedalmond;
+    position:absolute;
+    display: none;
+    top:30px;
+    left:0;
+    transition: all linear 0.3s;
+}
+.dropdown_content a{
+    display: block;
+}
+.dropdown_content a:hover{
+    background-color: chartreuse;
+}
+.dropdown_container:hover .dropdown_content{
+    display: block;
+}

@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(./Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    background-color:whitesmoke;
+    text-align: center;
+    position: relative;
+
+}
+.navbar ul{
+    display:inline-flex ;
+    list-style-type: none;
+   
+}
+.navbar ul li{
+    padding:15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+}
+.Dropdown_container{
+    background-color: blanchedalmond;
+    position:relative;
+}
+.Dropdown_container ul{
+    display: block;
+}
+.navbar ul li .Dropdown_container{
+position: absolute;
+top:48px;
+display: none;
+}
+.navbar ul li:hover .Dropdown_container{
+    display:block;
+}
+.Dropdown_container ul li:hover{
+    background-color: azure;
+}
+.Dropdown_Subcontainer{
+    position: absolute;
+    top:48px;
+    left:168px;
+    display: none;   
+}
+.Dropdown_Subcontainer ul{
+    background-color: wheat;
+}
+.Dropdown_container ul li:hover .Dropdown_Subcontainer{
+    display: block;
+}
