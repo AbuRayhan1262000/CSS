@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.box{
+    height:400px;
+    width: 500px;
+    border: 2px solid red;
+    background-image: url(./image/messi-1.png),url(./image/messi-5.png),url(./image/messi-2.png),url(./image/messi-3.png),url(./image/messi-6.png),url(./image/messi-4.png);
+    background-size:150px 150px,150px 150px,150px 150px,150px 150px,150px 150px,150px 150px;
+    background-position:top left,175px 0px,top right,bottom right,175px 250px,bottom left;
+    background-repeat:no-repeat,no-repeat,no-repeat,no-repeat;
+}
