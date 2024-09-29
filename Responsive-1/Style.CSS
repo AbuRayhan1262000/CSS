@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Inter Tight", sans-serif;
+}
+
+.footer-container{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: antiquewhite;
+   
+}
+.foodies{
+    width:1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+}
+.foodies-single{
+    width:calc(25% - 15px);
+    height:200px;
+    background-color:;
+    margin: 0 auto;
+    text-align: center;
+}
+.foodies-single .foodies-heading{
+    margin-top: 20px;
+    font-size: 27px;
+}
+.foodies-single .foodies-para{
+    line-height:27px;
+    font-size:22px;
+}
+.foodies-single i{
+    line-height: 50px;
+    padding:0 15px;
+    font-size:25px;
+    cursor: pointer;
+}
+.foodies-single .heading{
+    font-size: 25px;
+    margin-top:20px;
+}
+.foodies-single .para{
+    line-height:27px;
+    font-size: 25px;
+}
+.foodies-single:nth-of-type(4){
+    height: 320px;
+}
+form input{
+    text-align: center;
+    padding: 7px 20px;
+    margin-top:20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+form input:hover{
+    background-color:#06c167;
+}
+form button{
+    text-align: center;
+    padding: 7px 80px;
+    margin: 20px;
+    background-color: #06c167;
+    font-size:15px;
+    cursor: pointer;
+}
+.copyright{
+    font-size: 20px;
+}
+@media screen and (min-width:768px) {
+    .foodies{
+        width:1200px;
+        display: flex;
+        gap:20px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .foodies-single{
+        width:calc(50% - 10px);
+        height:200px;
+        background-color:;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .foodies-single:nth-of-type(4){
+        height: 200px;
+    }
+  
+    .foodies-single:nth-of-type(4) form{
+        display: flex;
+        margin-left: 40px;
+        
+    }
+    .foodies-single:nth-of-type(4)  form button{
+        padding: 15px 80px;
+       
+        
+    }
+    .foodies-single:nth-of-type(4)  form input{
+       height: 50px;
+       position: relative;
+        
+    }
+    
+    }
+    @media screen and (min-width:992px) {
+        
+        .foodies{
+            width:1200px;
+            display: flex;
+            flex-direction: row;
+            gap:20px;
+        }
+        .foodies-single{
+            width:calc(25% - 15px);
+            height:210px;
+            background-color:;
+            margin: 0 auto;
+            text-align:left;
+        }
+        .foodies-single .foodies-para
+        {
+            line-height: 30px;
+            font-size: 20px;
+        }
+        .foodies-single .para{
+            line-height: 30px;
+            font-size:20px;
+        }
+        .foodies-single i{
+            margin-top:20px;
+        }
+        .foodies-single:nth-of-type(4)  form{
+            margin-left:5px;
+           
+            
+        }
+        .foodies-single:nth-of-type(4)  form button{
+            padding: 15px 20px;
+           
+            
+        }
+        .foodies-single:nth-of-type(4)  form input{
+           height: 50px;
+           width: 130px;
+           position: relative;
+            
+        }
+
+        }
+        
+
+
+
